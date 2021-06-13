@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:iconSpaceReserved="false">
+
+    <PreferenceCategory
+        android:title="사용자 정보"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:title="다른 계정으로 로그인"
+            android:summary="현재 계정이 아닌 다른 계정으로 로그인 하고싶다면 누르세요."
+            android:widgetLayout="@layout/pref_logout_button" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="알림 설정"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreference
+            android:key="vibrate"
+            android:title="진동 알림"
+            android:summary="메세지가 왔을때 진동울림으로 알림을 받으려면 체크하세요."/>
+
+        <CheckBoxPreference
+            android:key="message"
+            android:title="소리 알림"
+            android:summary="소리로 알림을 받으려면 체크하세요."/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="어플 정보"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:summary="개발자 정보를 확인합니다"
+            android:title="개발자 정보" >
+            <intent
+                android:targetClass="whdghks913.tistory.examplepreferenceactivity.MadeByActivity"
+                android:targetPackage="whdghks913.tistory.examplepreferenceactivity" />
+        </Preference>
+        <Preference
+            android:summary="개발자에게 메일을 보냅니다"
+            android:title="메일 보내기" >
+            <intent
+                android:action="android.intent.action.SENDTO"
+                android:data="mailto:whdghks913@naver.com" />
+        </Preference>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

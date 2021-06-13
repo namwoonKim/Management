@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "725089821684",
+    "project_id": "fridgemanagement-7e888",
+    "storage_bucket": "fridgemanagement-7e888.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725089821684:android:212482a39b635be940cfa1",
+        "android_client_info": {
+          "package_name": "com.example.management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725089821684-16f691n2dkqbnrjd24ju1r18skv0arb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8yvd5tw2iwKzE6D9lXwsRBRXwmo_tAnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725089821684-16f691n2dkqbnrjd24ju1r18skv0arb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
